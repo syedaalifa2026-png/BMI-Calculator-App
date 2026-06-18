@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "594964272405",
+    "firebase_url": "https://vixo-bmi-default-rtdb.firebaseio.com",
+    "project_id": "vixo-bmi",
+    "storage_bucket": "vixo-bmi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594964272405:android:6e836611a07d9d824f051c",
+        "android_client_info": {
+          "package_name": "com.vixo.bmi_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594964272405-s4j44n3c7rad5a3f057mvffd3acrf129.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZjwzZs4tpOh3WtO86o9Hqmx9fEOcMtLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594964272405-s4j44n3c7rad5a3f057mvffd3acrf129.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "594964272405-i6e15m5njvtfe8hegapvglqvpekur5j2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bmiCalculatorPro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

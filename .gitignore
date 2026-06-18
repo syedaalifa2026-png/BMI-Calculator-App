@@ -1,0 +1,10 @@
+
+/android/app/build/
+/android/.gradle/
+/.dart_tool/
+/.firebase/
+/.pub-cache/
+/.build/
+/build/
+.env
+
