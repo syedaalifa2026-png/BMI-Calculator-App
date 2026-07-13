@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "vixo-bmi",
+          "configurations": {
+            "macos": "1:594964272405:ios:b176e06ee09ee5264f051c",
+            "web": "1:594964272405:web:a58a615759f847b54f051c",
+            "windows": "1:594964272405:web:cbb709fe27d59f5d4f051c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
